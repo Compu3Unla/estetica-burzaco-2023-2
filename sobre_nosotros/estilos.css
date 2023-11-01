@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merienda&family=Poppins:wght@300;400;700&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Merienda&family=Poppins:wght@300;400;700&family=Roboto+Mono:wght@300;400&display=swap');
+
+body{
+	padding: 0px;
+	display: flex;
+	width: 1920px;
+	height: 3257px;
+	background-color: rgba(118, 101, 91, 1);
+	align-items: center;
+	flex-direction: column;
+}
+header {
+	display: flex;
+	width: 1920px;
+	height: 256px;
+	/*padding: 0px 267px 32px 267px;*/
+	justify-content: center;
+	align-items: center;
+	/*background-color:aqua;*/
+	border: medium;
+}
+.botonera{
+	display: flex;
+	width: 1384px;
+	height: 224px;
+	justify-content: space-around;
+	align-items: center;
+	/*border: solid ;*/
+	list-style: none;
+}
+nav ul{
+	display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    width: 1384px;
+    height: 224px;
+    align-items: center;
+	    font-family: Merienda;
+    font-size: 32px;
+    line-height: normal;
+	color: #EDE7DF;
+}
+nav ul li{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.servicios{
+display: flex;
+width: 199px;
+height: 46px;
+padding: 0px 28px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.sobrenosotros{
+	display: flex;
+width: 299px;
+height: 46px;
+padding: 0px 29.96px 0px 27.04px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.logo{
+	width: 123.999px;
+height: 117.996px;
+flex-shrink: 0;
+}
+.reservar{
+	display: flex;
+width: 199px;
+height: 46px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.informacion{
+	display: flex;
+width: 243px;
+height: 46px;
+padding: 0px 24.462px 0px 23.538px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+main{
+	/*display: flex;*/
+	width: 1919px;
+	height: 3257px;
+	background-color: rgba(118, 101, 91, 1);
+}
+.titulo-nosotros{
+	display: flex;
+	width: 1919px;
+	height: 126px;
+	flex-direction: column;
+	justify-content: center;
+	color: #EDE7DF;
+	font-family: Merienda;
+	font-size: 96px;
+	text-align: center;
+}
+.sobre-nostros-bajada{
+	display: flex;
+
+}
+.foto-nosotros{
+	padding-left: 268px;
+}
+.texto{
+	/*padding-top: 0px;*/
+	padding-left: 45px;
+	padding-right: 265px;
+	heigth: 729px;
+	color: #EDE7DF;
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ubicacion{
+	display: flex;
+   
+    align-content: center;
+
+
+    flex-direction: column;
+    flex-wrap: wrap;
+	/*width: 1920px;
+	height: 1073px;*/
+	/*border: solid;*/
+}
+h2{
+display: flex;
+    justify-content: center;
+    font-family: merienda;
+    font-size: 48px;
+    font-weight: 400;
+    color: #EDE7DF;
+	/*border: solid;*/
+}
+.mapa-lugar{
+display: flex;
+    width: 1920px;
+    height: 1400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-content: center;
+    /* margin-top: 0px;*/
+}
+mapa{
+	    display: flex;
+    width: 1920;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.horarios{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+	width: 1920px;
+	
+    height: 406px;
+	/*border: solid;*/
+}
+h3{
+	width: 500px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.dias{
+	color: #FFF;
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 50px;
+letter-spacing: 1.6px;
+	width: 469px;
+	
+}
+footer{
+	width: 1920px;
+	height: 205px;
+	background-color: rgba(237, 231, 223, 1);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.grupo-footer{
+	width: 1383px;
+	height: 64px;
+	background-color: rgba(237, 231, 223, 1);
+	/*border: solid red;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#pin-mapa{
+	/*height: 80px;
+    width: 60px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.ubicacion-footer{
+	display: flex;
+	justify-content: space-around;
+	width: 370px;
+	height: 60px;
+	
+}
+.direccion{
+	color: #76655B;
+
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.whatsapp{
+	display: flex;
+    justify-content: flex-end;
+}
+.texto-footer{
+	width: 646px;
+	height:61px;
+	/*border: solid green;*/
+	color: #4D382C;
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+}
+.telefono{
+	color: #4D382C;
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.redes-sociales{
+/*display: flex;*/
+    width: 120px;
+    height: 60px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+	justify-content: space-around;
+
+}
+.redes{
+	width: 120px;
+	display:flex;
+	list-style: none;
+	justify-content: space-around;
+}
+.IG{
+	    width: 30px;
+    height: 30px;
+}
+.YT{
+	    width: 30px;
+    height: 30px;
+}
+.FB{
+	    width: 30px;
+    height: 30px;
+}
+.telefono{
+	display: flex;
+}
